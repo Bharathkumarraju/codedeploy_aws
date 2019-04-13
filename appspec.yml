@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/JavaWeb.war
+  - source: JavaWeb.war
     destination: /opt/bitnami/apache-tomcat/webapps
 
 hooks:
